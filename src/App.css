@@ -1,0 +1,6 @@
+.App > * {
+    margin-bottom: 50px; /* Adjust the value as needed */
+}
+.App > *:last-child {
+    margin-bottom: 0;
+}

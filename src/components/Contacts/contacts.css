@@ -1,0 +1,51 @@
+.Contacts{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.icor{
+    color: gold;
+    height: 20%;
+    width: auto;
+    background-color: rgb(20, 19, 19);
+    border-radius: 3rem;
+    padding: 1rem 1rem;
+}
+
+.heading{
+    margin: 0;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 1rem;
+    padding: 2rem;
+    font-size:medium;
+    font-weight: 200;
+    height: 21rem;
+    border-radius: 3rem;
+    color: white;
+}
+
+.content{
+    color:white;
+    padding: 4rem 2rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.content:hover{
+    color: gold;
+    font-weight: 600;
+}

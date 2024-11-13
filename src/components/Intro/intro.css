@@ -1,0 +1,149 @@
+.Intro{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.introlines{
+    display: flex;
+    flex-direction: column;
+}
+.introlines span,
+.introlines p {
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+}
+
+.introlines span {
+    display: block;
+    transform: translateY(20px);
+}
+
+.introlines span:nth-child(1) {
+    animation-delay: 0.5s; 
+}
+
+.introlines span:nth-child(2) {
+    animation-delay: 1s; 
+}
+
+.introlines span:nth-child(3) {
+    animation-delay: 1.5s; 
+}
+
+.introlines p {
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.btns {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 2s;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+.fullpic {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 2s;
+    position: absolute;
+    top: 4rem;
+    right: 10px;
+    z-index: -1;
+    width: 100vh;
+    height: 100vh;
+}
+
+.introcontent{
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 2rem;
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+    padding: 0rem 1rem;
+}
+
+.Iam{
+    color: gold;
+    padding: 0rem 1rem;
+}
+
+.proff{
+    padding: 1rem 1rem;
+}
+
+.intropara{
+    font-size: large;
+    font-weight: 200;
+    color: gold;
+}
+
+.btns{
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+}
+
+.btn{
+    height: 2rem;
+    width: 6rem;
+    margin: 1rem;
+    padding: .25rem .25rem;
+    border: white;
+    border-radius: 1rem;
+    background-color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+.btn:hover{
+    color: gold;
+    padding-bottom: .25rem;
+    border-bottom: 3px solid gold;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:840px){
+    .full_pic{
+        right: -10;
+    }
+    .introcontent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width:100vm){
+    .full_pic{
+        right: -20vw;
+    }
+}

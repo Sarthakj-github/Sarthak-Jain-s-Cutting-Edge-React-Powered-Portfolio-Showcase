@@ -1,0 +1,87 @@
+/* Navbar Styling */
+.navbar {
+    height: 5rem;
+    width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    font-weight: 700;
+    background-color: black; /* Keep the background consistent */
+    border-radius: 1.5rem; /* Added rounded corners */
+    border-bottom: 2px solid rgba(255, 215, 0, 0.3); /* Soft gold border at the bottom */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for depth */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.navbar:hover {
+    background-color: #111; /* Darker background on hover for subtle effect */
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.3); /* Glow shadow effect on hover */
+}
+
+/* Logo Styling */
+.logo {
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%; /* Circular logo */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    box-shadow: 0 0 15px 3px rgba(255, 215, 0, 0.6); /* Gold glow around logo */
+    border: 2px solid gold; /* Keep the gold border on hover */
+}
+
+/* Menu Styling */
+.desktopMenu {
+    margin-top: 1.2rem;
+    display: flex; /* Ensure the items are laid out in a row */
+    justify-content: center;
+    align-items: center;
+}
+
+.desktopMenuItem {
+    color: white;
+    margin: 0 2rem; /* Adjusted for even spacing */
+    cursor: pointer;
+    font-size: 1.1rem; /* Slightly larger text for better readability */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth color and transformation transitions */
+}
+
+.desktopMenuItem:hover {
+    color: gold; /* Highlight menu items in gold on hover */
+    transform: translateY(-2px); /* Slight lift effect when hovered */
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid gold; /* Underline effect for hover */
+}
+
+/* Button Styling */
+.desktopBtn {
+    height: 2.5rem;
+    width: 12rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1rem;
+    font-size: medium;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth background and shadow transition */
+}
+
+.desktopBtn:hover {
+    background-color: gold; /* Gold background on hover */
+    color: black; /* Change text color to black */
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.5); /* Glow effect around the button */
+    padding-bottom: 1rem;
+    border-bottom: 3px solid black; /* Gold underlining on hover */
+}

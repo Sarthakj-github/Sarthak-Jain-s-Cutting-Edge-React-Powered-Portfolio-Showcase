@@ -1,0 +1,92 @@
+/* General Styling */
+.Projects {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    overflow-x: scroll;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+.projects {
+    display: flex;
+    gap: 1rem;
+}
+
+.project {
+    width: 300px; /* Set fixed width for each project box */
+    flex: none;
+    background-color: #1a1a1a;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: small;
+    font-weight: 200;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project:hover {
+    box-shadow: 5px 5px 15px 2px gold;
+    transform: scale(1.05);
+}
+
+.image {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    margin-bottom: 1rem;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+/* Title Styling */
+.title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #e0b722;
+    margin-top: 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+/* Content Styling */
+.content {
+    text-align: center;
+    padding: 0.5rem 0;
+    color: #d3d3d3;
+    position: relative;
+    z-index: 2;
+}
+
+/* Scrollbar Styling */
+.Projects::-webkit-scrollbar {
+    height: 10px;
+}
+
+.Projects::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+.Projects::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
