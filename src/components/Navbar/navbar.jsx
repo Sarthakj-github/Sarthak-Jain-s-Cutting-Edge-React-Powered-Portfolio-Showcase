@@ -22,8 +22,16 @@ const Navbar = () => {
         <Link to="/contacts" className="desktopMenuItem">Contacts</Link>
       </div>
       <div>
-      <Link to="https://forms.gle/gsEmmYYU41Y3WGzC9" className="desktopBtn">Deferred Connection</Link>
-      </div>
+        <Link 
+          to="https://forms.gle/gsEmmYYU41Y3WGzC9" 
+          className="desktopBtn" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          Deferred Connection
+        </Link>
+</div>
+
     </nav>
   );
 }
