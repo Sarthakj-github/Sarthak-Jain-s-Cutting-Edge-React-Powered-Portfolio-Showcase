@@ -14,13 +14,12 @@ const Intro = () => {
             <p class='intropara'>Embarking on an enriching B.Tech journey at PSIT Kanpur.</p>
         </div>
         <div class="btns">
-            <button class='btn'><a href="https://www.linkedin.com/in/sarthak-jain-chanderia" class="leet">LinkedIn</a></button>
+            <button class='btn'><a href="https://www.linkedin.com/in/sarthakJchanderia" class="leet">LinkedIn</a></button>
             <button class='btn'><a href="https://github.com/Sarthakj-github" class="gith">GitHub</a></button>
         </div>
     </div>
     <img src={full_pic} alt="full_pic" class='fullpic' />
     </section>
-
   )
 }
 

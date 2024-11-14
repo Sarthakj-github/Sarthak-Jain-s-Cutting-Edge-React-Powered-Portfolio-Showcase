@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import my_pic from "../../assets/My_pic.jpg"; // Path to your profile image
+import my_pic from "../../assets/My_pic.jpg"; // Path to profile image
 
 function About() {
   return (

@@ -1,16 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
+import resumePDF from "../../assets/SarthakJainResume_A.pdf";
 import "./navbar.css"
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div>
-      <Link className="Logo">
-        <img className="logo" src={logo} alt="Logo" />
-      </Link>
+      <div className="logo-container"> 
+        <Link to="#" className="Logo" onClick={() => window.open(resumePDF, "_blank")}>
+          <img className="logo" src={logo} alt="Logo" />
+        </Link>
+        <h3 className="resume">My Resume</h3>
       </div>
+
       <div className="desktopMenu">
         <Link to="/" className="desktopMenuItem">Home</Link>
         <Link to="/skills" className="desktopMenuItem">Skills</Link>

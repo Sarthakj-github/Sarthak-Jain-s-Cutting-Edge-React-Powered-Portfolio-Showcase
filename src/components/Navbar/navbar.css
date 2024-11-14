@@ -23,6 +23,24 @@
     box-shadow: 0 6px 20px rgba(255, 215, 0, 0.3); /* Glow shadow effect on hover */
 }
 
+/* Container styling for vertical alignment */
+.logo-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align logo and text */
+    cursor: pointer; /* Change cursor to pointer when hovering */
+}
+
+.logo-container:hover .logo {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    box-shadow: 0 0 15px 3px rgba(255, 215, 0, 0.6); /* Gold glow around logo */
+    border: 2px solid gold; /* Keep the gold border on hover */
+}
+
+.logo-container:hover .resume {
+    color: gold; /* Change color to gold on hover */
+}
+
 /* Logo Styling */
 .logo {
     object-fit: cover;
@@ -32,10 +50,15 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
 }
 
-.logo:hover {
-    transform: scale(1.1); /* Slight zoom effect on hover */
-    box-shadow: 0 0 15px 3px rgba(255, 215, 0, 0.6); /* Gold glow around logo */
-    border: 2px solid gold; /* Keep the gold border on hover */
+/* Resume Text Styling */
+.resume {
+    color: white;
+    font-size: 0.75rem; /* Adjust font size for balance */
+    font-weight: bold;
+    margin-top: 0.5rem; /* Space between logo and text */
+    text-align: center; /* Center-align text under the logo */
+    text-transform: uppercase; /* Make the text uppercase */
+    transition: color 0.3s ease; /* Smooth transition for hover */
 }
 
 /* Menu Styling */
