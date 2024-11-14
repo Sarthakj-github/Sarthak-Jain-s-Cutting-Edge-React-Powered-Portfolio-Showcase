@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.73e1416a.css",
-    "main.js": "/static/js/main.b2a9d84f.js",
+    "main.js": "/static/js/main.cad0cab8.js",
+    "static/media/manas.jpg": "/static/media/manas.d04b65a3096859588c4e.jpg",
     "static/media/My_pic.jpg": "/static/media/My_pic.4570a13d4faf7fcb0057.jpg",
     "static/media/full_pic.png": "/static/media/full_pic.bf649de3e6fc26c6b968.png",
     "static/media/SarthakJainResume_A.pdf": "/static/media/SarthakJainResume_A.d3f4ca8604f4c1263f52.pdf",
     "static/media/logo.png": "/static/media/logo.b530f47df04b120bffe7.png",
     "static/media/code_crafter.jpeg": "/static/media/code_crafter.092737a2b24431411d6f.jpeg",
-    "static/media/matrix_app.jpg": "/static/media/matrix_app.b3e25daba1f351634a2f.jpg",
     "static/media/rps_game.jpg": "/static/media/rps_game.49072e1b7938e2dd56ff.jpg",
     "static/media/modic.jpg": "/static/media/modic.90f1de58f30abbc6f61e.jpg",
     "index.html": "/index.html",
     "main.73e1416a.css.map": "/static/css/main.73e1416a.css.map",
-    "main.b2a9d84f.js.map": "/static/js/main.b2a9d84f.js.map"
+    "main.cad0cab8.js.map": "/static/js/main.cad0cab8.js.map"
   },
   "entrypoints": [
     "static/css/main.73e1416a.css",
-    "static/js/main.b2a9d84f.js"
+    "static/js/main.cad0cab8.js"
   ]
 }
