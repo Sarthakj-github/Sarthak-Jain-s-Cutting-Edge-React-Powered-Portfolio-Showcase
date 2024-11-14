@@ -20,7 +20,7 @@ Harnessing the unparalleled power of React, this project pushes the boundaries o
 HTML
 CSS
 JavaScript
-React
+React.js
 
 # Usage
 Clone the repository to your local machine.
